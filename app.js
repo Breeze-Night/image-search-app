@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     page++;
-    if (page > 1) {
+    if (page > 1 && searchInput.value) {
       showMoreBtn.style.display = "block";
     }
   }
